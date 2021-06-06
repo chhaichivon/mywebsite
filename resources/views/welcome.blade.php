@@ -13,7 +13,7 @@
 <body>
 
 <div class="container">
-    <h2>Order Products</h2>
+    <h2>Order Products online</h2>
     <button type="button" class="btn btn-primary">
         <i class='fas fa-plus' style='font-size:24px'></i>
     </button>
