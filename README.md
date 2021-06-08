@@ -16,3 +16,8 @@ My Project
 
 
     php artisan serve
+    
+**4. Generate Auth**
+  
+    composer require laravel/ui
+    php artisan ui:auth
