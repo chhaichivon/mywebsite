@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{--@extends('layouts.app')--}}
 
 {{--@section('content')--}}
 {{--<div class="container">--}}
@@ -83,7 +83,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Login - Vali Admin</title>
+    <title>Login</title>
 </head>
 <body>
 <section class="material-half-bg">
@@ -91,7 +91,7 @@
 </section>
 <section class="login-content">
     <div class="logo">
-        <h1>Vali</h1>
+        <h1>Mart KH</h1>
     </div>
     <div class="login-box">
         <form class="login-form" action="index.html">
@@ -117,6 +117,7 @@
             <div class="form-group btn-container">
                 <button class="btn btn-primary btn-block"><i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN</button>
             </div>
+            <p>Don't have account ? <a href="register">Register</a></p>
         </form>
         <form class="forget-form" action="index.html">
             <h3 class="login-head"><i class="fa fa-lg fa-fw fa-lock"></i>Forgot Password ?</h3>
