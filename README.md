@@ -9,8 +9,7 @@ My Project
 **2. Migrate database** 
     
    
-    composer migrate 
-    
+    php artisan migrate
     
 **3. Run Project** 
 
