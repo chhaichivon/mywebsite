@@ -119,8 +119,7 @@
             <div class="row"id="my-header"style="background-color:rgb(240, 240, 240);color: blue;">
                 <div class="col-sm-3">
                     <p>Follow us</p>
-                    <p>facebook</p>
-                    <p>youtube</p>
+                    <img src=""
                 </div>
                 <div class="col-sm-3">
                     <p>customer senvice</p>

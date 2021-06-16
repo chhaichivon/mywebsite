@@ -42,3 +42,6 @@ Route::get('/admin', function () {
 Route::get('/admin/category', function () {
     return view('admin.category.index');
 });
+Route::get('/admin/category/create',function () {
+    return view('admin.category.create');
+});
