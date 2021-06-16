@@ -10,4 +10,31 @@ docker-compose.override.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
-yarn-error.log
+yarn-error.lo
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+### VS Code ###
+.vscode/
+
+
