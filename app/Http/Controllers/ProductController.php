@@ -27,7 +27,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('products.create');
+        return view('product.create');
     }
 
     /**
@@ -38,11 +38,12 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'description' => 'required',
-            'price' => 'required'
-        ]);
+        //dd($request);
+//        $request->validate([
+//            'name' => 'required',
+//            'description' => 'required',
+//            'price' => 'required'
+//        ]);
 
         Product::create($request->all());
 
@@ -69,7 +70,7 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        return view('products.edit', compact('product'));
+        return view('product.edit', compact('product'));
     }
 
     /**

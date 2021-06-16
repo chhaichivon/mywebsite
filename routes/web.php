@@ -27,7 +27,7 @@ Route::get('/abc', function () {
 });
 
 
-Route::resource('products', ProductController::class);
+Route::resource('product', App\Http\Controllers\ProductController::class);
 
 
 Auth::routes();
