@@ -7,7 +7,8 @@
                 <h2>Laravel 8 CRUD Example </h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="" title="Create a product"> <i class="fas fa-plus-circle"></i>
+                <a class="btn btn-success" href="{{ route('product.create') }}" title="Create a product">
+                    Add New
                 </a>
             </div>
         </div>
@@ -30,28 +31,18 @@
         </tr>
         @foreach ($products as $product)
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>{{ $product->id  }}</td>
+                <td>{{ $product->name  }}</td>
+                <td>{{ $product->description }}</td>
+                <td>{{ $product->price }}</td>
+                <td>{{ $product->created_at }}</td>
                 <td>
-                    <form action="" method="POST">
-
-                        <a href="" title="show">
-                            <i class="fas fa-eye text-success  fa-lg"></i>
-                        </a>
-
-                        <a href="">
-                            <i class="fas fa-edit  fa-lg"></i>
-                        </a>
-
+                    <a class="btn btn-info" href="{{ route('product.show',$product->id) }}">Show</a>
+                    <a class="btn btn-primary" href="{{ route('product.edit',$product->id) }}">Edit</a>
+                    <form action="{{ route('product.destroy',$product->id) }}" method="POST">
                         @csrf
                         @method('DELETE')
-
-                        <button type="submit" title="delete" style="border: none; background-color:transparent;">
-                            <i class="fas fa-trash fa-lg text-danger"></i>
-                        </button>
+                        <button  type="submit" class="btn btn-danger" >Delete</button>
                     </form>
                 </td>
             </tr>

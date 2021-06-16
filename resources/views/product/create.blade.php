@@ -17,14 +17,13 @@
             <strong>Error!</strong>
             <ul>
                 @foreach ($errors->all() as $error)
-                    <li></li>
+                    <li>{{$error}}</li>
                 @endforeach
             </ul>
         </div>
     @endif
-    <form action="" method="POST" >
+    <form action="{{ route('product.store') }}" method="POST" >
         @csrf
-
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
@@ -35,8 +34,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Description:</strong>
-                    <textarea class="form-control" style="height:50px" name="introduction"
-                              placeholder="description"></textarea>
+                    <textarea class="form-control" style="height:50px" name="description" placeholder="description"></textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
