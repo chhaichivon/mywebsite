@@ -37,39 +37,35 @@
                 </div>
             </div>
         </nav>
-
-        <h3>My shop</h3>
+        <div class="container">
+            <button type="Add" class="btn btn-primary">Add</button>
+        </div>
 
         <div class="container text-center">
-            <form>
-                <input type="text" name="search" placeholder="Search..">
-            </form>
-
+            <img src="https://s5.kh1.co/5c/5cfe2e911e119e3bb30da3cdcfed3d9a67c2d932.png"alt="Image">
         </div>
-    </div>
-
-    <div class="container">
+        <div class="container">
         <div class="row">
             <div class="col-sm-3" style="border:2px solid black;">
-                <h3>Column 1</h3>
+                <h4>Column 1</h4>
                 <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/70/70b012b68aa52c2c6c267f618fdc80911cfcf3b7.jpg"
                      class="img-responsive" style="width:40%" alt="Image">
                 <p>60$</p>
             </div>
             <div class="col-sm-3" style="border:2px solid black;">
-                <h3>Column 2</h3>
+                <h4>Column 2</h4>
                 <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/3b/3b032a6180de0918d50a725fdb2b4eb630d0f2ce.jpg"
                      class="img-responsive" style="width:40%" alt="Image">
                 <p>50$</p>
             </div>
             <div class="col-sm-3" style="border:2px solid black;">
-                <h3>Column 3</h3>
+                <h4>Column 3</h4>
                 <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/0e/0e3e85c755e99812933d70588389f871f348fa88.png"
                      class="img-responsive" style="width:40%" alt="Image">
                 <p>50$</p>
             </div>
             <div class="col-sm-3" style="border:2px solid black;">
-                <h3>column 4</h3>
+                <h4>column 4</h4>
                 <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/32/3204c3903f76762c0f5f8bb8548b642c5f291a76.png"
                      class="img-responsive" style="width:40%" alt="Image">
                 <p>50$</p>
@@ -77,25 +73,25 @@
 
             <div class="row">
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 1</h3>
+                    <h4>column 1</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/f5/f58f1a8926aa9c0f1f3d66a5e3cc19aaf7964e55.jpg"
                          class="img-responsive" style="width:40%" alt="Image">
                     <p>50$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 2</h3>
+                    <h4>column 2</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/04/04433d4b24c7d7cd8d353aa73e576e61fd1db89c.jpg"
                          class="img-responsive" style="width:40%" alt="Image">
                     <p>40$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 3</h3>
+                    <h4>column 3</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/32/3204c3903f76762c0f5f8bb8548b642c5f291a76.png"
                          class="img-responsive" style="width:40%" alt="Image">
                     <p>50$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 4</h3>
+                    <h4>column 4</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/32/3204c3903f76762c0f5f8bb8548b642c5f291a76.png"
                          class="img-responsive" style="width:40%" alt="Image">
                     <p>50$</p>
@@ -104,25 +100,25 @@
 
             <div class="row">
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 1</h3>
+                    <h4>column 1</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/80/806215c004b3e3a30fda396f5ca36bbd29f1278a.jpg"
                          style="width:40%" alt="Image">
                     <p>40$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 2</h3>
+                    <h4>column 2</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/7c/7cd0aa7702d0fe554dc138a0cb8f68b9420c5c4b.jpg"
                          style="width:40%" alt="Image">
                     <p>30$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 3</h3>
+                    <h4>column 3</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/71/71d0a853849faf5aded633dab918db83d01af527.jpg"
                          style="width:40%" alt="Image">
                     <p>50$</p>
                 </div>
                 <div class="col-sm-3" style="border:2px solid black;">
-                    <h3>column 4</h3>
+                    <h4>column 4</h4>
                     <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/bc/bc0fb76c1e8a649d0d06a247cc1c9f0200697329.jpg"
                          style="width:40%" alt="Image">
                     <p>50$</p>
