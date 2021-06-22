@@ -14,7 +14,7 @@
     <div class="row">
         <div class="clearfix"></div>
         <div class="col-md-12">
-            <a class="btn btn-primary" href="{{ route('product.create') }}" title="Create a product">
+            <a class="btn btn-primary" href="{{ route('order.create') }}" title="Create a product">
                 <i class="fa fa-plus" aria-hidden="true"></i>
             </a>
             <div class="tile">
@@ -32,28 +32,26 @@
                             <th>ID</th>
                             <th>Name</th>
                             <th>Description</th>
-                            <th>Price</th>
                             <th>Created Date</th>
                             <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
-                            @foreach ($products as $product)
+                            @foreach ($orders as $order)
                                 <tr>
-                                    <td>{{ $product->id  }}</td>
-                                    <td>{{ $product->name  }}</td>
-                                    <td>{{ $product->description }}</td>
-                                    <td>{{ $product->price }}</td>
-                                    <td>{{ $product->created_at }}</td>
+                                    <td>{{ $order->id  }}</td>
+                                    <td>{{ $order->name  }}</td>
+                                    <td>{{ $order->description }}</td>
+                                    <td>{{ $order->created_at }}</td>
                                     <td>
                                         <div class="btn-group" role="group">
-                                            <a class="btn btn-info" href="{{ route('product.show',$product->id) }}">
+                                            <a class="btn btn-info" href="{{ route('order.show',$order->id) }}">
                                                 <i class="fa fa-eye" aria-hidden="true"></i>
                                             </a>
-                                            <a class="btn btn-primary" href="{{ route('product.edit',$product->id) }}">
+                                            <a class="btn btn-primary" href="{{ route('order.edit',$order->id) }}">
                                                 <i class="fa fa-pencil" aria-hidden="true"></i>
                                             </a>
-                                            <form action="{{ route('product.destroy',$product->id) }}" method="POST">
+                                            <form action="{{ route('order.destroy',$order->id) }}" method="POST">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="btn btn-danger">
@@ -70,7 +68,7 @@
 
 
                     <div class="d-flex justify-content-center">
-                        {!! $products->links() !!}
+                        {!! $orders->links() !!}
                     </div>
                 </div>
             </div>
