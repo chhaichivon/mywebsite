@@ -1,1 +1,1 @@
-Welcome to Admin Page
+myhome is at school

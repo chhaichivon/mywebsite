@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
     <div>
@@ -37,15 +38,12 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <button type="Add" class="btn btn-primary">Add</button>
-        </div>
+            <div class="container" style="text-align: ">
+               <img src="https://www.khmer24.com/khmer24-crm-63/template/img/khmer24.gif"style="width:20%"alt ="Image">
+            </div>
 
-        <div class="container text-center">
-            <img src="https://s5.kh1.co/5c/5cfe2e911e119e3bb30da3cdcfed3d9a67c2d932.png"alt="Image">
-        </div>
         <div class="container">
-        <div class="row">
+        <div class="row" style="background-color:rgb(240, 240, 240);color: blue;">
             <div class="col-sm-3" style="border:2px solid black;">
                 <h4>Column 1</h4>
                 <img src="https://s9.kh1.co/__image/w=175,h=245,fit=contain/70/70b012b68aa52c2c6c267f618fdc80911cfcf3b7.jpg"
@@ -123,7 +121,7 @@
                          style="width:40%" alt="Image">
                     <p>50$</p>
                 </div>
-
+                <div class="container" style="text-align: ">
                 <div class="row" id="my-header" style="background-color:rgb(240, 240, 240);color: blue;">
                     <div class="col-sm-3">
                         <p>Follow us</p>

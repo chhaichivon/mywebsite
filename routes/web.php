@@ -23,7 +23,7 @@ Route::get('/hello', function () {
 });
 
 
-Route::get('/abc', function () {
+Route::get('/Look', function () {
     return view('abc');
 });
 
@@ -43,6 +43,23 @@ Route::get('/admin', function () {
 Route::get('/admin/category', function () {
     return view('admin.category.index');
 });
+
 Route::get('/admin/category/create',function () {
     return view('admin.category.create');
+});
+
+Route::get('/book', function () {
+    return view('category.index');
+});
+Route::get('/book/create', function () {
+    return view('category.create');
+});
+Route::get('/book/show', function () {
+    return view('category.show');
+});
+Route::get('/pen', function () {
+    return view('category.index');
+});
+Route::get('/pen/create', function () {
+    return view('category.create');
 });
