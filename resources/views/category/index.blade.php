@@ -54,12 +54,14 @@
             <div class="form-group"style="background-color:rgb(240, 240, 240);color: black;">
                 <div class="col-sm-offset-2 col-sm-10">
                     <div class="checkbox">
-                        <label><input type="checkbox" name="remember"> Clear</label>
+                        <label><input type="checkbox"> Remember me</label>
+
                     </div>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" class="btn btn-success">Clear</button>
                     <button type="button" class="btn btn-primary">Save</button>
                 </div>
             </div>
